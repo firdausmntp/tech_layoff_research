@@ -1,0 +1,68 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook and marimo runtime state
+.ipynb_checkpoints/
+__marimo__/
+.marimo/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local dbt/profile-style configs (keep example templates in git)
+profiles.yml
+profiles.*.yml
+!profiles.example.yml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Local databases and binary data artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.parquet
+*.feather
+
+# Editor/IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# If your datasets are local-only, uncomment one of these:
+# *.csv
+# data/
