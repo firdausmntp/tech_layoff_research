@@ -292,7 +292,9 @@ Identiknya jumlah baris antara `bronze_tech_layoffs` dan `fact_layoffs` (1.745) 
 
 ### 4.3 Output Analitik Sektoral dan Spasial
 
-*View* `v_komparasi_indo_global` berhasil menghasilkan 396 baris agregasi komparatif yang siap dikonsumsi langsung oleh Looker Studio. Berikut contoh representasi parsial dari data output (*sample*):
+Hasil agregasi global secara keseluruhan dari *Data Warehouse* menunjukkan tren eskalasi *tech layoffs* yang memuncak pada tahun 2023 dengan total 176.976 pekerja terdampak, diikuti oleh tahun 2022 (127.812 pekerja) dan 2024 (122.315 pekerja). Sementara secara distribusi sektoral, pemutusan hubungan kerja terbesar terjadi pada industri *Consumer* (61.155 pekerja), *Retail* (59.228 pekerja), *Hardware* (57.000 pekerja), dan *Transportation* (39.136 pekerja).
+
+Secara khusus, *view* komparatif `v_komparasi_indo_global` berhasil mereduksi kompleksitas jutaan titik data menjadi 396 baris agregasi komparatif (Indonesia vs Global) yang siap dikonsumsi langsung oleh Looker Studio. Berikut contoh representasi parsial dari data output (*sample*):
 
 | year | quarter | industry | region_scope | total_companies_impacted | total_layoffs |
 |---|---|---|---|---|---|
